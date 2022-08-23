@@ -5,16 +5,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input text</title>
+    <title>Input</title>
 </head>
 
 <body>
     <h1>Input text</h1>
 
-    <input type="text" name="nome" value="" id="nome" placeholder="Digite seu nome aqui">
-    
-    <input type="text" name="email" value="" id="email" placeholder="Digite seu email aqui">
+        <input type="text" name="nome" value="" id="nome" placeholder="Digite seu nome aqui">
 
+        <input type="text" name="email" value="" id="email" placeholder="Digite seu email aqui"><br>
+
+    <h2>Input Number, Password, Submit</h2>
+
+        <label for="numero">Number</label>
+        <input id="numero" type="number"> <br><br>
+
+        <label for="senha">Password</label>
+        <input id="senha" type="password" name="" id="Password"><br><br>
+
+        <input type="submit" value="Enviar"><br>
+    
+    <h2>Input Checkbox e Radio</h2>
+
+        <h3>Linguagens de programação</h3>
+            <label for="c#">C#</label>
+            <input id="c#" type="checkbox" name="linguagens" id=""><br>
+
+            <label for="javascript">JavaScript</label>
+            <input id="javascript" type="checkbox" name="linguagens" id=""><br>
+
+        <h3>Gênero</h3>
+            <label for="masculino">Masculino</label>
+            <input id="masculino" type="radio" name="genero">
+
+            <label for="feminino">Feminino</label>
+            <input id="feminino" type="radio" name="genero"><br>
+    
+     <h2>Input Select</h2>
+
+        <label for="filmes">Filmes</label>
+        <select id="filmes" name="filmes">
+            <option value="">Selecione um filme</option>
+            <option value="Senhor dos anéis">Senhor dos anéis</option>
+            <option value="Mad Max">Mad Max</option>
+            <option value="Harry Potter">Harry Potter</option>
+            <option value="Vingadores">Vingadores</option>
+        </select><br>
+    
+     <h2>Input Textarea</h2>
+
+         <textarea name="texto" id="texto" cols="30" rows="5"></textarea>
+    
+     <h2>Input Button</h2>
+
+        <button>Clicar aqui</button><br><br>
+
+        <input type="button" value="Clicar aqui" onclick="alert('olá')">
 
 </body>
 
